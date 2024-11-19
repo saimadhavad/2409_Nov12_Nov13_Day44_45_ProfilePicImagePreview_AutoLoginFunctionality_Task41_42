@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  background: linear-gradient(to right, #abbaab, #ffffff);
+  font-family: "Sour Gummy", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+  font-size: 1rem;
+}
+.App {
+  text-align: center;
+}
+
+/* SIGNIN  */
+.signINFormImage {
+  width: 150px;
+}
+.signINDiv {
+  background: #abbaab;
+  width: 450px;
+  margin: 10px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 15px 15px 15px #abbaab;
+}
+.signINBTN {
+  width: 100%;
+  padding: 10px;
+  border: 0px;
+  margin-top: 10px;
+  border-radius: 4px;
+  background: linear-gradient(to right, #abbaab, #ffffff);
+  border: 1px solid #ccc;
+  font-family: "Sour Gummy", sans-serif;
+  font-size: 1.2rem;
+}
+.signINBTN:hover,.cancelBTN:hover,.signUPBTN:hover,.saveChangesBTN:hover {
+  background: #649173;
+  color: white;
+}
+
+.termsAndPolicyDiv,.rememberMeDiv {
+  margin: 10px;
+  margin-left: 0px;
+}
+
+/* SIGNUP & FORGOT PASSWORD */
+.signUPDiv,.forgotPasswordDiv {
+  background: #abbaab;
+  width: 500px;
+  margin: 5px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 15px 15px 15px #abbaab;
+  text-align: center;
+}
+.BTNCancelSignUP {
+  display: flex;
+}
+/* SIGNUP, CANCEL & SAVECHNAGES BUTTON */
+.cancelBTN,.signUPBTN,.saveChangesBTN,.cancelBTN {
+  width: 50%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #CCC;
+  box-shadow: 10px 10px 10px #abbaab;
+  font-family: "Sour Gummy", sans-serif;
+  font-size: 1.2rem;
+  border-radius: 4px;
+}
+.cancelBTN,.saveChangesBTN {
+  background: linear-gradient(to right, #abbaab, #ffffff);
+}
+.signUPBTN,.cancelBTN {
+  background: linear-gradient(to left, #abbaab, #ffffff);
+}
+.BTNSubmit {
+  text-align: center;
+}
+
+
+/* PAGES DIV CSS */
+.dashboardDiv,.cricketScoreDiv,.editProfileDiv {
+  background: #abbaab;
+  width: 900px;
+  margin: 5px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 15px 15px 15px #abbaab;
+  text-align: center;
+}
+
+/* FORM */
+.formGroup {
+  /* padding: 10px; */
+  margin-bottom: 15px;
+}
+.formGroup label {
+  display: flex;
+  flex-basis: 30%;
+  font-weight: 500;
+  padding-bottom: 5px;
+  font-size: 1.2rem;
+}
+.formGroup span {
+  color: red;
+}
+.formGroup .textColor {
+  color: #000;
+}
+.inputRight {
+  display: flex;
+  flex-direction: row;
+  flex-basis: 70%;
+  gap:10px;
+}
+input[type="text"], input[type="password"],
+input[type="number"],input[type="email"],
+select {
+  width: 100%;
+  padding: 8px;
+  /* margin-top: 5px; */
+  font-size: 0.9rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: "Sour Gummy", sans-serif;
+  box-sizing: border-box;
+}
+
+/* TOP NAVIGATION CSS */
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.active  {
+  background-color: #649173;
+  padding: 15px;
+  color: white;
+  border-radius: 25px;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+/* EDIT PROFILE PAGE */
+hr {
+  border: 1px solid #CCC;
+  margin-bottom: 10px;
+}
+.genderDiv,.maritalStatusDiv {
+  display: flex;
+}
+.profileDiv {
+  display: flex;
+  color: black;
+}
+.myProfileHeading {
+  text-align: left;
+}
+.personalDetails legend, .contactDetails legend, .changeUpdatePassword legend {
+  text-align: left;
+  padding: 10px;
+}
+fieldset {
+  padding: 10px;
+  border: 3px solid #ccc;
+}
+.addressDiv{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+.cityStateDiv select,
+.postalCountryDiv input,
+.postalCountryDiv select, .addressDiv input {
+  width: 100%;
+  box-sizing: border-box;
+}
+.cityStateDiv, .postalCountryDiv {
+ display: flex;
+ gap: 10px;
+}
+.uploadPhotoDiv {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  padding: 10px;
+}
+.profilePicImage {
+  padding: 10px;
+}
+.fileInput {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+img {
+  width: 150px;
+  height: 150px;
+  border:  2px solid #ccc;
+} 
+
+.saveChangesCancelBTN {
+  margin: 20px;
+}
